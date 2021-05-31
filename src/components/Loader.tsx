@@ -3,17 +3,8 @@ import React from 'react';
 const Loader = () => {
     return (
         <div className="preloader-wrapper active">
-            <div className="spinner-layer spinner-green-only">
-                <div className="circle-clipper left">
-                    <div className="circle"/>
-                </div>
-                <div className="gap-patch">
-                    <div className="circle"/>
-                </div>
-                <div className="circle-clipper right">
-                    <div className="circle"/>
-                </div>
-            </div>
+            <svg className="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+            </svg>
         </div>
     );
 };
